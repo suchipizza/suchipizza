@@ -46,4 +46,4 @@ Eight pixels wide. Unlimited potential for questionable decisions.
 
 7. Run `npm run preview`, open the printed URL, and save your changes. The preview regenerates the scene and shows errors as you work. Run `npm run check` before committing.
 
-See the [main README](../../README.md#character-format) for the complete format and [animation guide](../../docs/animation.md) for choreography.
+See the [main README](../../TEMPLATE.md#character-format) for the complete format and [animation guide](../../docs/animation.md) for choreography.
