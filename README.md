@@ -1,9 +1,9 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="dist/scene-still.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="dist/scene-light-still.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="dist/scene.svg">
-  <source media="(prefers-color-scheme: light)" srcset="dist/scene-light.svg">
-  <img alt="A black-and-white husky with blue eyes chases flying pizza while a black cat hops toward sushi. A little pixel-art chaos." src="dist/scene.svg" width="900">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="dist/scene-still.svg?v=husky-1">
+  <source media="(prefers-reduced-motion: reduce)" srcset="dist/scene-light-still.svg?v=husky-1">
+  <source media="(prefers-color-scheme: dark)" srcset="dist/scene.svg?v=husky-1">
+  <source media="(prefers-color-scheme: light)" srcset="dist/scene-light.svg?v=husky-1">
+  <img alt="A black-and-white husky with blue eyes chases flying pizza while a black cat hops toward sushi. A little pixel-art chaos." src="dist/scene.svg?v=husky-1" width="900">
 </picture>
 
 # Hi, I'm Noémie.
