@@ -8,7 +8,7 @@
 
 # Hi, I'm Noémie.
 
-I am an AI-native software builder based in Zürich (Switzerland), senior R&D engineer with a PhD and a decade of expertise in building computational models that predict how complex systems behave in the real world.
+I am a software builder based in Zürich (Switzerland), senior R&D engineer with a PhD and a decade of expertise in building computational models that predict how complex systems behave in the real world.
 
 These days, I build agentic benchmarks, and experimentation frameworks to understand how AI agents behave when they’re given room to explore, make decisions, fail, learn from outcomes, and try again.
 
