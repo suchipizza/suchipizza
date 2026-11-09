@@ -111,7 +111,7 @@ export function validateProfile(config: ProfileConfig, registry: Registry): void
   assert(typeof config.scene.loop === 'boolean', 'Scene loop must be true or false');
   text(config.title, 'Scene title'); text(config.description, 'Scene description');
   if (config.scene.label !== undefined) text(config.scene.label, 'Scene label');
-  if (config.scene.eyebrow !== undefined) text(config.scene.eyebrow, 'Scene eyebrow');
+  if (config.scene.eyebrow) text(config.scene.eyebrow, 'Scene eyebrow');
   assert(config.scene.showTiming === undefined || typeof config.scene.showTiming === 'boolean', 'Scene showTiming must be true or false');
   for (const mode of ['dark', 'light'] as const) {
     assert(config.theme?.[mode], `Theme "${mode}" is missing`);

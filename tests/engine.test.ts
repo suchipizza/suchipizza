@@ -151,7 +151,9 @@ test('the personal scene renders its custom husky, cat, and five independent foo
   assert.match(svg, /id="actor-husky"/);
   assert.match(svg, /id="actor-cat"/);
   assert.equal((svg.match(/<animateMotion /g) ?? []).length, 5);
-  assert.match(svg, /AI-NATIVE SOFTWARE BUILDER \/ ZÜRICH/);
+  assert.match(svg, /Welcome to my page/);
+  assert.match(svg, /MY STACK: COMPLEX SYSTEMS/);
+  assert.doesNotMatch(svg, /AI-NATIVE/);
   assert.doesNotMatch(svg, /20s \/ LOOP/);
   assert.ok(Buffer.byteLength(svg) < 500_000);
   for (const actor of personal.characters) {

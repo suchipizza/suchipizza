@@ -3,10 +3,10 @@ import { defineProfile } from '../../src/config.ts';
 
 export default defineProfile({
   ...scene,
-  title: 'Curiosity, in motion.',
+  title: 'Welcome to my page',
   scene: {
     ...scene.scene,
-    eyebrow: 'AI-NATIVE SOFTWARE BUILDER / ZÜRICH',
-    label: 'COMPLEX SYSTEMS. CURIOUS AGENTS. UNSUPERVISED SNACKS.',
+    eyebrow: '',
+    label: 'MY STACK: COMPLEX SYSTEMS. CURIOUS AGENTS. UNSUPERVISED SNACKS.',
   },
 });
